@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shop.com || Home</title>
+    <link rel="shortcut icon" href="./assets/home-page.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1>
+                <a href="INDEX.HTML" class="name">shop<span>.com</span></a>
+            </h1>
+        </div>
+        <div>
+            <ul id="navbar">
+                <li><a href="INDEX.HTML" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="About.html">About</a></li>
+                <li>
+                    <a class="cartLg" href="Cart-page.html"><i class="fa-solid fa-cart-plus"></i></a>
+                </li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="Cart-page.html"><i class="fa-solid fa-cart-plus"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </nav>
+    <section id="hero" class="text">
+        <div class="hero-text-wrap">
+            <h5>Welcome to Shop.com</h5>
+            <h2>Super savings deals</h2>
+            <h1>On all Products</h1>
+            <p>Save more with vouchers & upto 75% off!</p>
+            <a href="/shop.html" class="main-btn">Start Shopping</a>
+        </div>
+    </section>
+    <section id="features">
+        <h2>Our Features</h2>
+        <div class="card">
+            <div class="cards">
+                <img src="free shipping.jpeg" alt="" />
+                <h4>Free Shipping</h4>
+            </div>
+            <div class="cards">
+                <img src="customer service.jpeg" alt="" />
+                <h4>24*7 Customer Support</h4>
+            </div>
+            <div class="cards">
+                <img src="easy return.jpeg" alt="" />
+                <h4>Easy Return</h4>
+            </div>
+            <div class="cards">
+                <img src="big discounts.jpg" height="177px" alt="" />
+                <h4>Big Discounts</h4>
+            </div>
+            <div class="cards">
+                <img src="happy-shopping.webp" height="186px" width="175px" alt="" />
+                <h4>Happy Shopping</h4>
+            </div>
+        </div>
+    </section>
+    <!--Shirt Section -->
+    <section id="product">
+        <h2>Our Featured Product</h2>
+        <div class="product-card">
+            <div class="product-cards" onclick="redirect('shirt 1.jpg','shirt 1.jpg',
+            'shirt 1.jpg','shirt 1.jpg',
+            'Men RegPrinted Casual Shirt' , '899' )">
+                <img src="shirt 1.jpg" alt="" />
+                <div class="desc">
+                    <h4>The Bear House</h4>
+                    <h3>Men Regular Printed Casual Shirt</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>899</h5>
+                </div>
+            </div>
+            <div class="product-cards" onclick="redirect('shirt 2.jpeg','shirt 2.jpeg',
+            'shirt 2.jpeg','shirt 2.jpeg', 'The Bear House',
+            'Men Regular Printed Casual Shirt', '999')">
+                <img src="shirt 2.jpeg" alt="" />
+                <div class="desc">
+                    <h4>The Bear House</h4>
+                    <h3>Men Regular Printed Casual Shirt</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>999</h5>
+                </div>
+            </div>
+            <div class="product-cards" onclick="redirect('shirt 3.jpeg',
+            'shirt 3.jpeg','shirt 3.jpeg', 'shirt 3.jpeg',
+            'The Bear House', 'Men Regular Printed CasualShirt', '599')">
+                <img src="shirt 3.jpeg" alt="" />
+                <div class="desc">
+                    <h4>The Bear House</h4>
+                    <h3>Men Regular Printed Casual Shirt</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>599</h5>
+                </div>
+            </div>
+            <div class="product-cards" onclick="redirect('shirt 4.jpeg','shirt 4.jpeg',
+        'shirt 4.jpeg','shirt 4.jpeg','The BearHouse',
+        'Men Regular Printed Casual Shirt' , '699' )">
+                <img src="shirt 4.jpeg" alt="" />
+                <div class="desc">
+                    <h4>The Bear House</h4>
+                    <h3>Men Regular Printed Casual Shirt</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>699</h5>
+                </div>
+            </div>
+        </div>
+        <a href="shop.html">
+            <h3 class="view-more">View more</h3>
+        </a>
+    </section>
+    <!-- Shoes Section -->
+    <section id="product">
+        <h2>Shoes</h2>
+        <div class="product-card">
+            <div class="product-cards" onclick="redirect('1.jpg','1.jpg',
+            '1.jpg','1.jpg', 'Puma' ,'Men Casual Running Shoes', '999' )">
+                <img src="1.jpg" alt="" />
+                <div class="desc">
+                    <h4>Puma</h4>
+                    <h3>Men Casual Running Shoes</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>999</h5>
+                </div>
+            </div>
+            <div class="product-cards" onclick="redirect('2.jpg','2.jpg',
+            '2.jpg','2.jpg', 'Nike', 'Men Casual Running Shoes', '1199')">
+                <img src="2.jpg" alt="" />
+                <div class="desc">
+                    <h4>Nike</h4>
+                    <h3>Men Casual Running Shoes</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>1199</h5>
+                </div>
+            </div>
+            <div class="product-cards" onclick="redirect('3.jpg','3.jpg',
+            '3.jpg','3.jpg', 'Woodland', 'Men Casual Running Shoes' , '2599' )">
+                <img src="3.jpg" alt="" />
+                <div class="desc">
+                    <h4>Woodland</h4>
+                    <h3>Men Casual Running Shoes</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>2599</h5>
+                </div>
+            </div>
+            <div class="product-cards" onclick="redirect('5.jpg','5.jpg',
+                '5.jpg','5.jpg','Campus', 'Men CasualRunning Shoes','849')">
+                <img src="5.jpg" alt="" />
+                <div class="desc">
+                    <h4>Campus</h4>
+                    <h3>Men Casual Running Shoes</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>849</h5>
+                </div>
+            </div>
+        </div>
+        <a href="shop.html">
+            <h3 class="view-more">View more</h3>
+        </a>
+    </section>
+    <!-- Jeans Section -->
+    <section id="product">
+        <h2>Jeans</h2>
+        <div class="product-card">
+            <div class="product-cards" onclick="redirect('01.jpeg','01.jpeg',
+            '01.jpeg','01.jpeg', 'Killer', 'Men Regular Slim fit Jeans', '1499')">
+                <img src="01.jpeg" alt="" />
+                <div class="desc">
+                    <h4>Killer</h4>
+                    <h3>Men Regular Slim fit Jeans</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>1499</h5>
+                </div>
+            </div>
+            <div class="product-cards" onclick="redirect('02.jpeg','02.jpeg',
+            '02.jpeg','02.jpeg', 'Wrogn' ,'Men Regular Slim fit Jeans', '1249' )">
+                <img src="02.jpeg" alt="" />
+                <div class="desc">
+                    <h4>Worgn</h4>
+                    <h3>Men Regular Slim fit Jeans</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>1249</h5>
+                </div>
+            </div>
+            <div class="product-cards" onclick="redirect('03.jpeg','03.jpeg',
+            '03.jpeg','03.jpeg', 'Spyker', 'Men Regular Slim fit Jeans', '2199')">
+                <img src="03.jpeg" alt="" />
+                <div class="desc">
+                    <h4>Spyker</h4>
+                    <h3>Men Regular Slim fit Jeans</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>2199</h5>
+                </div>
+            </div>
+            <div class="product-cards" onclick="redirect('04.jpg','04.jpg',
+            '04.jpg','04.jpg','Mufti', 'Men Regular Slim fit Jeans', '1499' )">
+                <img src="04.jpg" alt="" />
+                <div class="desc">
+                    <h4>Mufti</h4>
+                    <h3>Men Regular Slim fit Jeans</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>1499</h5>
+                </div>
+            </div>
+        </div>
+        <a href="shop.html">
+            <h3 class="view-more">View more</h3>
+        </a>
+    </section>
+    <!-- Watch Section -->
+    <section id="product">
+        <h2>Watchs</h2>
+        <div class="product-card">
+            <div class="product-cards" onclick="redirect('101.jpeg','101.jpeg',
+            '101.jpeg','101.jpeg','Fastrack', 'Analog Watch For Men' , '799' )">
+                <img src="101.jpeg" alt="" />
+                <div class="desc">
+                    <h4>Fastrack</h4>
+                    <h3>Analog Watch For Men</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>799</h5>
+                </div>
+            </div>
+            <div class="product-cards" onclick="redirect('101.jpeg','101.jpeg',
+            '101.jpeg','101.jpeg', 'Fastrack' , 'Analog Watch For Men' , '1199' )">
+                <img src="102.jpeg" alt="" />
+                <div class="desc">
+                    <h4>Fastrack</h4>
+                    <h3>Analog Watch For Men</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>1199</h5>
+                </div>
+            </div>
+            <div class="product-cards" onclick="redirect('103.jpeg','103.jpeg',
+            '103.jpeg','103.jpeg', 'Fastrack' , 'Analog Watch For Men' , '1164' )">
+                <img src="103.jpeg" alt="" />
+                <div class="desc">
+                    <h4>Fastrack</h4>
+                    <h3>Analog Watch For Men</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>1164</h5>
+                </div>
+            </div>
+            <div class="product-cards"
+                onclick="redirect('104.jpeg','104.jpeg','104.jpeg','104.jpeg', 'Fastrack', 'Analog Watch For Men', '1289')">
+                <img src="104.jpeg" alt="" />
+                <div class="desc">
+                    <h4>Fastrack</h4>
+                    <h3>Analog Watch For Men</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                    <h5><i class="fas fa-indian-rupee-sign"></i>1289</h5>
+                </div>
+            </div>
+        </div>
+        <a href="shop.html">
+            <h3 class="view-more">View more</h3>
+        </a>
+    </section>
+    <footer>
+        <div class="footer-section">
+            <div class="logo">
+                <h1>
+                    <a href="#">shop<span>.com</span></a>
+                </h1>
+                <h4>Contact Us:</h4>
+                <p><strong>eMail: </strong>nikhil7371092582@gmail.com</p>
+            </div>
+            <div class="ourfeatures">
+                <h3>Our Features</h3>
+                <h4>Free Shipping</h4>
+                <h4>24*7 Customer Support</h4>
+                <h4>Easy Return</h4>
+                <h4>Big Discounts</h4>
+            </div>
+            <div class="page">
+                <div><a href="INDEX.HTML">Home</a></div>
+                <div><a href="shop.html">Shop</a></div>
+                <div><a href="About.html">About</a></div>
+                <div><a href="Cart-page.html">Cart</a></div>
+            </div>
+        </div>
+        <h5>Copyright shop.com 2025, Developed by
+            <a href="https://www.instagram.com/nikhilthakur73_/?hl=en" target="_blank">Nikhil Kumar</a>
+        </h5>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
